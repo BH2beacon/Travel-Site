@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+body {
+    background-color: rgb(169, 247, 247);
+    color: rgb(99, 42, 153);
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+}
+
+header {
+  background-color: rgb(115, 177, 177);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(115, 177, 177);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  background-color: rgb(127, 212, 212);
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.index-main {
+  display: flex;
+}
+
+a {
+  color: rgb(99, 42, 153);
+  text-decoration: none;
+  padding: 3px;
+}
+
+a:hover {
+  color: rgb(228, 255, 255);
+}
+
+h6 {
+  text-align: center;
+}
+
+.gallery {
+  text-align: center;
+  padding: 5px;
+}
+
+.center {
+  padding: 4%;
+}
+
+@media (max-width: 515px) {
+  header, footer {
+    background-color: rgb(97, 165, 192);
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    flex-direction: row-reverse;
+  }
+
+  .index-main {
+    flex-direction: column;
+  }
+
+  .left {
+    background-color: rgb(126, 179, 214);
+    width: 87.4vw;
+    }
+
+    .left h3, left h4, left p, left ul {
+      text-align: center;
+      padding-bottom: 4%;
+    }
+ 
+    .center {
+      text-align: center;
+    }
+
+    article, article img {
+        width: 30vw;
+    }
+  
+  img {
+    max-width: 100%;
+  } 
+    body {
+    background-color: rgb(130, 221, 243);
+    color: rgb(51, 58, 114);
+  }
+
+  a {
+    color: rgb(51, 58, 114);
+  }
+
+  a:hover {
+    color: rgb(225, 255, 250);
+  }
+}
